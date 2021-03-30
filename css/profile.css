@@ -1,0 +1,166 @@
+/*Panel 1*/
+
+.panels{
+  padding: 4rem;
+}
+.panel1{
+  background-color: #f7deda;
+  padding-top: 3rem;
+}
+
+.panel1Row{
+  margin: auto;
+}
+.panel1Columns{
+  display: flex;
+  margin: auto;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/*Panel 2*/
+
+.panel2Heading{
+  margin:2rem 0rem;
+  text-align: center;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing{
+    padding: 3rem;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    text-align: center;
+    padding: 2em;
+  }
+  .marketing h3 {
+    font-weight: 400;
+    padding: 1em 0em;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin: 0rem 0.50rem
+  }
+  /* rtl:end:ignore */
+  
+
+/* Featurettes
+------------------------- */
+.featurette1{
+    background-image: url("../svg/handshake.svg");
+    background-position:15px 20px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 2pt 2pt 2pt 2pt black;
+    width: 140px;
+    height:140px;
+}
+.featurette2{
+  background-image: url("../jpg/Reiterate.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 2pt 2pt 2pt 2pt black;
+  width: 140px;
+  height:140px;
+}
+.featurette3{
+  background-image: url("../svg/happy-user-profit.svg");
+  background-position:15px 15px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 2pt 2pt 2pt 2pt black;
+  width: 140px;
+  height:140px;
+}
+
+/*Panel 3*/
+.panel3{
+    background-color: #f7deda;
+}
+
+.panel3Heading{
+  margin:1rem 0rem 3rem 0rem;
+  text-align: center;
+}
+
+.panel3Rows{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/*Panel 4*/
+.panel4{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (min-width : 320px){
+  .mainHeading{
+    margin-bottom: 1rem;
+    font-family: "Kiwi Maru";
+  }  
+  .subheading{
+    margin-bottom: 3rem;
+    font-family: "Kiwi Maru";
+  }  
+  .mainPic{
+    margin: auto;
+    width: 100%;
+    }
+  
+  .panel4Buttons{
+    display: flex;
+    margin:4em;
+    width:40%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .panel4Heading{
+    font-size: 2rem;
+  }
+  .panel4Subheading{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width : 600px){
+  .mainPic{
+    width: 100%;
+    }
+  .panel4Heading{
+    font-size: 2.5rem;
+  }
+  .panel4Subheading{
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width : 1025px){
+  .mainPic{
+    width: 100%;
+    }
+
+  .panel4Buttons{
+    display: flex;
+    margin:4em;
+    width:40%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .panel4Heading{
+    font-size: 3rem;
+  }
+  .panel4Subheading{
+    font-size: 1.5rem;
+  }
+
+}
