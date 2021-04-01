@@ -127,9 +127,11 @@
 
   .panel4Heading{
     font-size: 2rem;
+    text-align: center;
   }
   .panel4Subheading{
     font-size: 1rem;
+    text-align: center;
   }
 }
 @media only screen and (min-width : 600px){
