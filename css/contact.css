@@ -1,26 +1,14 @@
 /*Panel 1*/
 
-.panel1{
-    background-color: #f7deda;
-  }
   .panelItemWhite{
       background-color: none;
   }
   .panelItemPink{
     background-color: #f7deda;
 }
-  
-  .panel1Row{
-    margin: auto;
-  }
-  .panel1Column{
-    margin: auto;
-    text-align: center;
-  }
 
   /* Panel items */
-  .panelItemRow{
-  }
+
   .panelItemColumnText{
     display: flex;
     margin: auto 0;
@@ -36,9 +24,6 @@
 /*Media Queries*/
 
   @media only screen and (min-width : 320px){
-    .panel1{
-        padding:2.7rem;
-    }
     .mainHeading1{
       margin-bottom: 1rem;
       font-weight: 400;
@@ -58,10 +43,6 @@
         font-size: 1.5rem;
         text-align: justify;
     }
-    .itemPic{
-        width: 100%;
-        padding: 1rem;
-    }
   }
     @media only screen and (min-width : 576px){
         .subheading1{
@@ -73,9 +54,6 @@
     }
    
     @media only screen and (min-width : 992px){
-        .panel1{
-            padding: 3rem;
-        }
         .subheading1{
             font-size: 1.5rem;
         }
@@ -84,10 +62,6 @@
         }
         .panelItemColumnText{
             order: 0;
-            padding: 2.5rem;
-        }
-        .itemPic{
-            width: 100%;
             padding: 2.5rem;
         }
         .itemHeadingLeft{

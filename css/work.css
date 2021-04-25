@@ -19,8 +19,6 @@
   }
 
   /* Panel items */
-  .panelItemRow{
-  }
   .panelItemColumnText{
     display: flex;
     margin: auto 0;
