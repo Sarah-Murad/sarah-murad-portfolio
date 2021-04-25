@@ -22,8 +22,7 @@
   text-align: center;
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* MARKETING CONTENT */
 
 .marketing{
     padding: 3rem;
@@ -45,8 +44,7 @@
   /* rtl:end:ignore */
   
 
-/* Featurettes
-------------------------- */
+/* Featurettes */
 .featurette1{
     background-image: url("../svg/handshake.svg");
     background-position:15px 20px;

@@ -46,10 +46,6 @@
     .subheading1{
         font-size: 1.1rem;
     }
-    .itemHeadingRight{
-        margin-bottom: 1.2rem;
-        text-align: left;
-    }  
     .itemDescription{
         font-size: 1rem;
         text-align: justify;
@@ -58,6 +54,9 @@
         width: 100%;
         padding: 1rem;
     }
+     .itemHeadingLeft{
+            margin-bottom: 1.6rem;
+        }
   }
     @media only screen and (min-width : 576px){
         .subheading1{
@@ -86,10 +85,6 @@
             width: 100%;
             padding: 2.5rem;
         }
-        .itemHeadingRight{
-            text-align: right;
-            margin-bottom: 1.5rem;
-        }  
     }
     @media only screen and (min-width : 1200px){
         .panel1{
