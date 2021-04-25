@@ -1,8 +1,5 @@
 /*Panel 1*/
 
-.panels{
-  padding: 4rem;
-}
 .panel1{
   background-color: #f7deda;
   padding-top: 3rem;
@@ -102,20 +99,25 @@
     flex-direction: column;
     align-items: center;
 }
+
+/*Media Queries*/
+
 @media only screen and (min-width : 320px){
   .mainHeading{
     margin-bottom: 1rem;
-    font-family: "Kiwi Maru";
+    font-weight: 400;
   }  
   .subheading{
-    margin-bottom: 3rem;
-    font-family: "Kiwi Maru";
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
   }  
+  .lead{
+    font-size: 1.1rem;
+  }
   .mainPic{
     margin: auto;
     width: 100%;
-    }
-  
+  }
   .panel4Buttons{
     display: flex;
     margin:4em;
@@ -124,7 +126,6 @@
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-
   .panel4Heading{
     font-size: 2rem;
     text-align: center;
@@ -134,10 +135,16 @@
     text-align: center;
   }
 }
-@media only screen and (min-width : 600px){
-  .mainPic{
-    width: 100%;
-    }
+@media only screen and (min-width : 576px){
+  .mainHeading{
+    font-size: 3.6rem;
+  }  
+  .subheading{
+    font-size: 1.6rem;
+  } 
+  .lead{
+    font-size: 1.3rem;
+  }
   .panel4Heading{
     font-size: 2.5rem;
   }
@@ -145,14 +152,11 @@
     font-size: 1.2rem;
   }
 }
-@media only screen and (min-width : 1025px){
-  .mainPic{
-    width: 100%;
-    }
+@media only screen and (min-width : 992px){
 
   .panel4Buttons{
     display: flex;
-    margin:4em;
+    margin:4rem;
     width:40%;
     flex-direction: row;
     justify-content: space-between;
@@ -164,5 +168,15 @@
   .panel4Subheading{
     font-size: 1.5rem;
   }
-
+}
+@media only screen and (min-width : 1200px){
+  .mainHeading{
+    font-size: 4.1rem;
+  }
+  .subheading{
+    font-size: 1.7rem;
+  } 
+  .lead{
+    font-size: 1.4rem;
+  }
 }

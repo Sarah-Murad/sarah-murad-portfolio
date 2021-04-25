@@ -4,7 +4,9 @@
 
 .content{
 }
-
+.panels{
+  padding: 4rem;
+}
 a.button:hover{
   background-color: #704340;
   color:white;
